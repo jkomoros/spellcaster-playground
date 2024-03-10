@@ -6,6 +6,7 @@
     "serve:app": "wds --node-resolve --port=8081"
   },
   "dependencies": {
+    "eslint": "^8.57.0",
     "spellcaster": "^2.0.0",
     "typescript": "^5.4.2"
   },
