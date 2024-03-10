@@ -1,9 +1,15 @@
 {
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "serve": "npm run serve:typescript & npm run serve:app",
+    "serve:typescript": "tsc --watch --preserveWatchOutput",
+    "serve:app": "wds --node-resolve --port=8081"
   },
   "dependencies": {
     "spellcaster": "^2.0.0",
     "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.4.3"
   }
 }
