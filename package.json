@@ -1,4 +1,5 @@
 {
+  "type":"module",
   "scripts": {
     "build": "npm run build:typescript && npm run build:copy",
     "build:typescript": "tsc",
