@@ -1,5 +1,5 @@
 {
-  "type":"module",
+  "type": "module",
   "scripts": {
     "build": "npm run build:typescript && npm run build:copy",
     "build:typescript": "tsc",
@@ -11,7 +11,8 @@
   "dependencies": {
     "eslint": "^8.57.0",
     "spellcaster": "^2.0.0",
-    "typescript": "^5.4.2"
+    "typescript": "^5.4.2",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@web/dev-server": "^0.4.3"
